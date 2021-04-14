@@ -49,8 +49,8 @@ To do that, we first need to start the OBS virtual camera in the `Controls` pane
 
 Once the virtual camera is started, it can now be chosen from Zoom or Skype in their respective menus.
 
-<img src="images/Zoom.png" width="45%"/>
-<img src="images/Skype.png" width="45%"/>
+[<img src="images/Zoom.png" width="45%"/>]()
+[<img src="images/Skype.png" width="45%"/>]()
 
 ### 4. Embedding a camera in the stream
 
@@ -70,8 +70,8 @@ Right click on the new `Video Capture Device` source and select `Filters` in the
 Add a new filter `Image Mask/Blend` in `Effect Filters` section.
 This filter asks for a mask image (a simple black and white png for example) and a mask color (transparency can also be chosen).
 
-<img src="images/cameraMaskProperties.png" width="60%"/>
-<img src="images/circle.png" width="20%"/>
+[<img src="images/cameraMaskProperties.png" width="60%"/>]()
+[<img src="images/circle.png" width="20%"/>]()
 
 Below is the result with a white circle on a black square mask illustrated just above (feel free to copy the mask image).
 
