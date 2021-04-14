@@ -95,7 +95,7 @@ Beware of configuring the streaming settings in OBS before (`preferences > strea
 
 The video stream includes by default the default input source of the computer as `Mic/Aux` in the `Audio Mixer` panel, you can optionnaly add new audio sources by adding a new `Audio Input Capture` in the `Sources` panel.
 
-In some case, include the audio from another source in the stream can be useful. For example, embedding the zoom audio output from the jury members of a PhD defense in the live-twitch stream.
+In some case, include the audio from another source in the stream can be useful. For example, embedding the zoom audio output from the jury members of a PhD defense in the Twitch live-stream.
 
 To do that, a specific tool to redirect the audio output of an app (e.g. Zoom.app) as new "virtual" input source must be used.
 Then, we just need to add a new `Audio Input Capture` capturing that new input source in OBS.
