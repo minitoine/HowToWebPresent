@@ -34,7 +34,7 @@ To visualize the screen, first add (if not already added) a new `Display Capture
 After choosing the name of the source, we are faced with the properties window.
 Specifically, the option `Display` allows to select which screen we want to record, e.g. `0` for the internal screen of a laptop, `1` for an external monitor, and so on (Restart OBS when connecting new monitors).
 
-<img src="images/displayProperties.png" width="60%"/>
+[<img src="images/displayProperties.png" width="60%" style="margin-left:20%;"/>]()
 
 The recorded screen shoud now be visible in the viewport of OBS. Moving the mouse cursor to one of the sides of the source video in the viewport allows to resize the source. (Doing so will add black borders to the stream).
 
