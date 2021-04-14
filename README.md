@@ -19,7 +19,7 @@ The tutorial will show how to
 
 * Install [OBS](https://obsproject.com/fr) (free and open source) on your computer
 
-<img src="images/OBS.png" width="80%" style="margin-left:10%;"/>
+<img src="images/OBS.png" width="100%"/>
 
 We are interested only by 5 areas in OBS:
 
@@ -34,11 +34,11 @@ To visualize the screen, first add (if not already added) a new `Display Capture
 After choosing the name of the source, we are faced with the properties window.
 Specifically, the option `Display` allows to select which screen we want to record, e.g. `0` for the internal screen of a laptop, `1` for an external monitor, and so on (Restart OBS when connecting new monitors).
 
-<img src="images/displayProperties.png" width="60%" style="margin-left:20%;"/>
+<img src="images/displayProperties.png" width="60%"/>
 
 The recorded screen shoud now be visible in the viewport of OBS. Moving the mouse cursor to one of the sides of the source video in the viewport allows to resize the source. (Doing so will add black borders to the stream).
 
-<img src="images/resize.png" width="80%" style="margin-left:10%;"/>
+<img src="images/resize.png" width="100%"/>
 
 Multiple `Display Capture` sources can be added at the same time by doing the same process.
 
@@ -49,8 +49,8 @@ To do that, we first need to start the OBS virtual camera in the `Controls` pane
 
 Once the virtual camera is started, it can now be chosen from Zoom or Skype in their respective menus.
 
-<img src="images/Zoom.png" width="42.5%" style="margin-left:5%;"/>
-<img src="images/Skype.png" width="42.5%" style="margin-left:5%;"/>
+<img src="images/Zoom.png" width="45%"/>
+<img src="images/Skype.png" width="45%"/>
 
 ### 4. Embedding a camera in the stream
 
@@ -58,11 +58,11 @@ While presenting, it might be useful to embed the live video from a camera to sh
 
 First add a new `Video Capture Device` source in the `Sources` panel. The properties window allows to select the input device with the option `Device`.
 
-<img src="images/captureDeviceProperties.png" width="60%" style="margin-left:20%;"/>
+<img src="images/captureDeviceProperties.png" width="60%"/>
 
 Once the new source is added to viewport, it can also be resized and moved.
 
-<img src="images/OBSCamera.png" width="80%" style="margin-left:10%;"/>
+<img src="images/OBSCamera.png" width="100%"/>
 
 Filters can be applied on any video source to apply, for example, a mask. This can be useful if you want to show only the presenter face and remove/blur the background for privacy reasons.
 Right click on the new `Video Capture Device` source and select `Filters` in the context menu. 
@@ -70,13 +70,12 @@ Right click on the new `Video Capture Device` source and select `Filters` in the
 Add a new filter `Image Mask/Blend` in `Effect Filters` section.
 This filter asks for a mask image (a simple black and white png for example) and a mask color (transparency can also be chosen).
 
-<img src="images/circle.png" width="20%" style="margin-left:40%;"/>
-
-<img src="images/cameraMaskProperties.png" width="60%" style="margin-left:20%;"/>
+<img src="images/cameraMaskProperties.png" width="60%"/>
+<img src="images/circle.png" width="20%"/>
 
 Below is the result with a white circle on a black square mask illustrated just above (feel free to copy the mask image).
 
-<img src="images/OBSCameraMask.png" width="80%" style="margin-left:10%;"/>
+<img src="images/OBSCameraMask.png" width="100%"/>
 
 
 ### 5. Live recording and live streaming the presentation
